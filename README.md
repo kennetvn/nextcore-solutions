@@ -15,6 +15,7 @@ Phần lớn trông tầm thường cho tới lúc bạn dính nó lúc 2 giờ 
 |---|---------|-----|
 | 01 | Node.js processes pile up on Windows and lag the whole machine (MCP servers, dev tasks that never die) | [orphan-node-reaper](./orphan-node-reaper/) |
 | 02 | Chrome MCP "lost connection" / "browser already running" — agent gives up and asks you to check | [chrome-mcp-resilience](./chrome-mcp-resilience/) |
+| 03 | AI CLI eats RAM over a long session until you reboot the machine | [long-running-ai-cli-hygiene](./long-running-ai-cli-hygiene/) |
 
 More coming. Each folder is self-contained: the *why*, the *fix*, and a drop-in script.
 
